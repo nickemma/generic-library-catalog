@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class GenericCatalog<T extends LibraryItem> {
-    private List<T> catalog;
+    private final List<T> catalog;
 
     public GenericCatalog() {
         this.catalog = new ArrayList<>();

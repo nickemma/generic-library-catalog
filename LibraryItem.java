@@ -1,20 +1,12 @@
 public class LibraryItem {
-    private String title;
-    private String author;
-    private String itemID;
+    private final String title;
+    private final String author;
+    private final String itemID;
 
     public LibraryItem(String title, String author, String itemID) {
         this.title = title;
         this.author = author;
         this.itemID = itemID;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
     }
 
     public String getItemID() {
